@@ -1,5 +1,7 @@
-gohup-11.pcf.gz: gohup-11.bdf
-	bdftopcf gohup-11.bdf | gzip > gohup-11.pcf.gz
+fonts: gohup-uni-11.pcf.gz gohup-uni-11b.pcf.gz
 
-install: gohup-11.pcf.gz
-	install -Dm644 gohup-11.pcf.gz /usr/share/fonts/misc/
+%.pcf.gz: %.bdf
+	bdftopcf $^ | gzip > $@
+
+install: fonts
+	install -Dm644 *.pcf.gz /usr/share/fonts/misc/
