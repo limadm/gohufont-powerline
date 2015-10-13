@@ -4,7 +4,8 @@ GohuFont with symbols for vim-airline/powerline and statusbar icons!
 
 It looks like this:
 
-  ![sample](samples/2015-10-13-113944_1280x800_scrot.png)
+  ![sample-small](samples/sample-small.png)
+  ![sample-large](samples/2015-10-13-113944_1280x800_scrot.png)
 
 ---
 
