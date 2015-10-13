@@ -4,4 +4,4 @@ fonts: gohup-uni-11.pcf.gz gohup-uni-11b.pcf.gz
 	bdftopcf $^ | gzip > $@
 
 install: fonts
-	install -Dm644 *.pcf.gz /usr/share/fonts/misc/
+	install -Dm644 *.pcf.gz $(DESTDIR)$(PREFIX)/share/fonts/misc/
