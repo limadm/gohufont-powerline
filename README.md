@@ -9,5 +9,4 @@ It looks like this:
 
 ---
 
-GohuFont is under WTFPL, 2015 Hugo Chargois.
-GohuFont-Powerline is under WTFPL too, 2015 Daniel Lima.
+GohuFont is under WTFPL, Hugo Chargois (2010), converted to TTF by Guilherme Komaeda (2015), Powerline symbols added by Daniel Lima (2015).
